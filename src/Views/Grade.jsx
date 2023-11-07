@@ -1,4 +1,4 @@
-const Profile = () => {
+const Grade = () => {
     return (
         <>
             
@@ -6,4 +6,4 @@ const Profile = () => {
     );
 };
 
-export default Profile;
+export default Grade;
