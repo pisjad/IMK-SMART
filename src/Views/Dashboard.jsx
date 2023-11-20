@@ -1,33 +1,45 @@
-import Navbar from "./Navbar";
 import FooterWeb from "./FooterWeb";
 import art from "../assets/Images/Welcoming.svg";
 
 const Dashboard = () => {
     return (
         <>
-            <Navbar />
             <div className="w-full px-16 py-16 h-full flex font-dmsans">
                 <div className="sidebar w-2/12 pr-8 text-center text-lg flex-col pt-24">
                     <div className="bg-hijau rounded-lg py-2 text-hijauMuda font-medium mb-6">
                         <p>Dashboard</p>
                     </div>
-                    <div className="bg-hijauMuda rounded-lg py-2 text-hijau font-medium my-6 hover:bg-hijau duration-300 hover:text-hijauMuda cursor-pointer">
-                        <p>Profile</p>
+                    <div className="group relative bg-hijauMuda rounded-lg py-2 text-hijau font-medium my-6  cursor-pointer">
+                        <div className="absolute opacity-0 group-hover:opacity-100 inset-0 w-3 rounded-lg bg-hijau transition-all duration-300 ease-out group-hover:w-full "></div>
+                        <span className="relative text-hijau group-hover:text-hijauMuda">
+                            Profile
+                        </span>
                     </div>
-                    <div className="bg-hijauMuda rounded-lg py-2 text-hijau font-medium my-6 hover:bg-hijau duration-300 hover:text-hijauMuda cursor-pointer">
-                        <p>Course</p>
-                    </div>
-                    <div className="bg-hijauMuda rounded-lg py-2 text-hijau font-medium my-6 hover:bg-hijau duration-300 hover:text-hijauMuda cursor-pointer">
-                        <p>Grade</p>
-                    </div>
-                    <div className="bg-hijauMuda rounded-lg py-2 text-hijau font-medium my-6 hover:bg-hijau duration-300 hover:text-hijauMuda cursor-pointer">
-                        <p>Tuition</p>
-                    </div>
-                    <div className="bg-hijauMuda rounded-lg py-2 text-hijau font-medium my-6 hover:bg-hijau duration-300 hover:text-hijauMuda cursor-pointer">
-                        <p>Career</p>
-                    </div>
-                    <div className="bg-hijauMuda rounded-lg py-2 text-hijau font-medium my-6 hover:bg-hijau duration-300 hover:text-hijauMuda cursor-pointer">
-                        <p>Achivement</p>
+                    <div className="group relative bg-hijauMuda rounded-lg py-2 text-hijau font-medium my-6  cursor-pointer">
+                        <div className="absolute opacity-0 group-hover:opacity-100 inset-0 w-3 rounded-lg bg-hijau transition-all duration-300 ease-out group-hover:w-full "></div>
+                        <span className="relative text-hijau group-hover:text-hijauMuda">
+                            Courses
+                        </span>
+                    </div><div className="group relative bg-hijauMuda rounded-lg py-2 text-hijau font-medium my-6  cursor-pointer">
+                        <div className="absolute opacity-0 group-hover:opacity-100 inset-0 w-3 rounded-lg bg-hijau transition-all duration-300 ease-out group-hover:w-full "></div>
+                        <span className="relative text-hijau group-hover:text-hijauMuda">
+                            Grade
+                        </span>
+                    </div><div className="group relative bg-hijauMuda rounded-lg py-2 text-hijau font-medium my-6  cursor-pointer">
+                        <div className="absolute opacity-0 group-hover:opacity-100 inset-0 w-3 rounded-lg bg-hijau transition-all duration-300 ease-out group-hover:w-full "></div>
+                        <span className="relative text-hijau group-hover:text-hijauMuda">
+                            Tuition
+                        </span>
+                    </div><div className="group relative bg-hijauMuda rounded-lg py-2 text-hijau font-medium my-6  cursor-pointer">
+                        <div className="absolute opacity-0 group-hover:opacity-100 inset-0 w-3 rounded-lg bg-hijau transition-all duration-300 ease-out group-hover:w-full "></div>
+                        <span className="relative text-hijau group-hover:text-hijauMuda">
+                            Career
+                        </span>
+                    </div><div className="group relative bg-hijauMuda rounded-lg py-2 text-hijau font-medium my-6  cursor-pointer">
+                        <div className="absolute opacity-0 group-hover:opacity-100 inset-0 w-3 rounded-lg bg-hijau transition-all duration-300 ease-out group-hover:w-full "></div>
+                        <span className="relative text-hijau group-hover:text-hijauMuda">
+                            Achievement
+                        </span>
                     </div>
                 </div>
                 <div className="kontener w-10/12 pt-24">
@@ -210,15 +222,11 @@ const Dashboard = () => {
                                     <div className="ml-auto text-6xl">40%</div>
                                 </div>
                                 <div className="bg-hijau font-semibold text-2xl text-hijauMuda p-4 rounded-2xl flex mb-4">
-                                    <div className="">
-                                        Basis Data
-                                    </div>
+                                    <div className="">Basis Data</div>
                                     <div className="ml-auto text-6xl">35%</div>
                                 </div>
                                 <div className="bg-hijau font-semibold text-2xl text-hijauMuda p-4 rounded-2xl flex mb-4">
-                                    <div className="">
-                                        Jaringan Komputer
-                                    </div>
+                                    <div className="">Jaringan Komputer</div>
                                     <div className="ml-auto text-6xl">58%</div>
                                 </div>
                                 <div className="bg-hijau font-semibold text-2xl text-hijauMuda p-4 rounded-2xl flex">
@@ -232,7 +240,6 @@ const Dashboard = () => {
                     </div>
                 </div>
             </div>
-            <FooterWeb />
         </>
     );
 };

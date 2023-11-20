@@ -1,6 +1,7 @@
 const Courses = () => {
     return (
         <>
+            <div className="">ini Courses</div>
             
         </>
     );

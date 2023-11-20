@@ -1,6 +1,7 @@
 const Grade = () => {
     return (
         <>
+            <div className="">ini Grade</div>
             
         </>
     );
