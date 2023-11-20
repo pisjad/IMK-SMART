@@ -1,5 +1,5 @@
-import FooterWeb from "./FooterWeb";
 import art from "../assets/Images/Welcoming.svg";
+import { Link } from "react-router-dom";
 
 const Dashboard = () => {
     return (
@@ -9,38 +9,55 @@ const Dashboard = () => {
                     <div className="bg-hijau rounded-lg py-2 text-hijauMuda font-medium mb-6">
                         <p>Dashboard</p>
                     </div>
-                    <div className="group relative bg-hijauMuda rounded-lg py-2 text-hijau font-medium my-6  cursor-pointer">
-                        <div className="absolute opacity-0 group-hover:opacity-100 inset-0 w-3 rounded-lg bg-hijau transition-all duration-300 ease-out group-hover:w-full "></div>
-                        <span className="relative text-hijau group-hover:text-hijauMuda">
-                            Profile
-                        </span>
-                    </div>
-                    <div className="group relative bg-hijauMuda rounded-lg py-2 text-hijau font-medium my-6  cursor-pointer">
-                        <div className="absolute opacity-0 group-hover:opacity-100 inset-0 w-3 rounded-lg bg-hijau transition-all duration-300 ease-out group-hover:w-full "></div>
-                        <span className="relative text-hijau group-hover:text-hijauMuda">
-                            Courses
-                        </span>
-                    </div><div className="group relative bg-hijauMuda rounded-lg py-2 text-hijau font-medium my-6  cursor-pointer">
-                        <div className="absolute opacity-0 group-hover:opacity-100 inset-0 w-3 rounded-lg bg-hijau transition-all duration-300 ease-out group-hover:w-full "></div>
-                        <span className="relative text-hijau group-hover:text-hijauMuda">
-                            Grade
-                        </span>
-                    </div><div className="group relative bg-hijauMuda rounded-lg py-2 text-hijau font-medium my-6  cursor-pointer">
-                        <div className="absolute opacity-0 group-hover:opacity-100 inset-0 w-3 rounded-lg bg-hijau transition-all duration-300 ease-out group-hover:w-full "></div>
-                        <span className="relative text-hijau group-hover:text-hijauMuda">
-                            Tuition
-                        </span>
-                    </div><div className="group relative bg-hijauMuda rounded-lg py-2 text-hijau font-medium my-6  cursor-pointer">
-                        <div className="absolute opacity-0 group-hover:opacity-100 inset-0 w-3 rounded-lg bg-hijau transition-all duration-300 ease-out group-hover:w-full "></div>
-                        <span className="relative text-hijau group-hover:text-hijauMuda">
-                            Career
-                        </span>
-                    </div><div className="group relative bg-hijauMuda rounded-lg py-2 text-hijau font-medium my-6  cursor-pointer">
-                        <div className="absolute opacity-0 group-hover:opacity-100 inset-0 w-3 rounded-lg bg-hijau transition-all duration-300 ease-out group-hover:w-full "></div>
-                        <span className="relative text-hijau group-hover:text-hijauMuda">
-                            Achievement
-                        </span>
-                    </div>
+                    <Link to="/Profile">
+                        <div className="group relative bg-hijauMuda rounded-lg py-2 text-hijau font-medium my-6  cursor-pointer">
+                            <div className="absolute opacity-0 group-hover:opacity-100 inset-0 w-3 rounded-lg bg-hijau transition-all duration-300 ease-out group-hover:w-full "></div>
+                            <span className="relative text-hijau group-hover:text-hijauMuda">
+                                Profile
+                            </span>
+                        </div>
+                    </Link>
+                    <Link to="/Courses">
+                        <div className="group relative bg-hijauMuda rounded-lg py-2 text-hijau font-medium my-6  cursor-pointer">
+                            <div className="absolute opacity-0 group-hover:opacity-100 inset-0 w-3 rounded-lg bg-hijau transition-all duration-300 ease-out group-hover:w-full "></div>
+                            <span className="relative text-hijau group-hover:text-hijauMuda">
+                                Courses
+                            </span>
+                        </div>
+                    </Link>
+                    <Link to="/Grade">
+                        <div className="group relative bg-hijauMuda rounded-lg py-2 text-hijau font-medium my-6  cursor-pointer">
+                            <div className="absolute opacity-0 group-hover:opacity-100 inset-0 w-3 rounded-lg bg-hijau transition-all duration-300 ease-out group-hover:w-full "></div>
+                            <span className="relative text-hijau group-hover:text-hijauMuda">
+                                Grade
+                            </span>
+                        </div>
+                    </Link>
+
+                    <Link to="/Tuition">
+                        <div className="group relative bg-hijauMuda rounded-lg py-2 text-hijau font-medium my-6  cursor-pointer">
+                            <div className="absolute opacity-0 group-hover:opacity-100 inset-0 w-3 rounded-lg bg-hijau transition-all duration-300 ease-out group-hover:w-full "></div>
+                            <span className="relative text-hijau group-hover:text-hijauMuda">
+                                Tuition
+                            </span>
+                        </div>
+                    </Link>
+                    <Link to="/Career">
+                        <div className="group relative bg-hijauMuda rounded-lg py-2 text-hijau font-medium my-6  cursor-pointer">
+                            <div className="absolute opacity-0 group-hover:opacity-100 inset-0 w-3 rounded-lg bg-hijau transition-all duration-300 ease-out group-hover:w-full "></div>
+                            <span className="relative text-hijau group-hover:text-hijauMuda">
+                                Career
+                            </span>
+                        </div>
+                    </Link>
+                    <Link to="/Achievement">
+                        <div className="group relative bg-hijauMuda rounded-lg py-2 text-hijau font-medium my-6  cursor-pointer">
+                            <div className="absolute opacity-0 group-hover:opacity-100 inset-0 w-3 rounded-lg bg-hijau transition-all duration-300 ease-out group-hover:w-full "></div>
+                            <span className="relative text-hijau group-hover:text-hijauMuda">
+                                Achievement
+                            </span>
+                        </div>
+                    </Link>
                 </div>
                 <div className="kontener w-10/12 pt-24">
                     <div className="bg-hijau w-full rounded-2xl text-hijauMuda flex ">
@@ -211,7 +228,7 @@ const Dashboard = () => {
                             </div>
                         </div>
                         <div className="ml-6 w-1/2">
-                            <div className="text-2xl pt-4 font-bold text-hijau mb-4">
+                            <div className="text-2xl font-bold text-hijau mb-4">
                                 Subject Progress
                             </div>
                             <div className="flex-col">
@@ -229,11 +246,15 @@ const Dashboard = () => {
                                     <div className="">Jaringan Komputer</div>
                                     <div className="ml-auto text-6xl">58%</div>
                                 </div>
-                                <div className="bg-hijau font-semibold text-2xl text-hijauMuda p-4 rounded-2xl flex">
+                                <div className="bg-hijau font-semibold text-2xl text-hijauMuda p-4 rounded-2xl flex mb-4">
                                     <div className="">
                                         Desain Analisis <br /> Algoritma
                                     </div>
                                     <div className="ml-auto text-6xl">50%</div>
+                                </div>
+                                <div className="bg-hijau font-semibold text-2xl text-hijauMuda p-4 rounded-2xl flex">
+                                    <div className="">Kecerdasan Buatan</div>
+                                    <div className="ml-auto text-6xl">27%</div>
                                 </div>
                             </div>
                         </div>
