@@ -11,11 +11,11 @@ const LandingPage = () => {
                         initial={{ opacity: 0, scale: 0.5 }}
                         animate={{ opacity: 1, scale: 1 }}
                         transition={{
-                            duration: 0.8,
+                            duration: 1.0,
                             delay: 0.5,
                             ease: [0, 0.71, 0.2, 1.01],
                         }}
-                        className="flex-col flex mx-auto justify-center text-center     items-center w-5/12"
+                        className="flex-col flex mx-auto justify-center text-center items-center w-5/12"
                     >
                         <img src={bulbLogo} className="mb-12" />
                         <div className="text-hijauMuda font-bold text-5xl mb-4">

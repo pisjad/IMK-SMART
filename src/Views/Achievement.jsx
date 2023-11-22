@@ -29,13 +29,15 @@ const Achievement = () => {
                             </span>
                         </div>
                     </Link>
-                    <Link to="/Grade"></Link>
-                    <div className="group relative bg-hijauMuda rounded-lg py-2 text-hijau font-medium my-6  cursor-pointer">
-                        <div className="absolute opacity-0 group-hover:opacity-100 inset-0 w-3 rounded-lg bg-hijau transition-all duration-300 ease-out group-hover:w-full "></div>
-                        <span className="relative text-hijau group-hover:text-hijauMuda">
-                            Grade
-                        </span>
-                    </div>
+                    <Link to="/Grade">
+                        <div className="group relative bg-hijauMuda rounded-lg py-2 text-hijau font-medium my-6  cursor-pointer">
+                            <div className="absolute opacity-0 group-hover:opacity-100 inset-0 w-3 rounded-lg bg-hijau transition-all duration-300 ease-out group-hover:w-full "></div>
+                            <span className="relative text-hijau group-hover:text-hijauMuda">
+                                Grade
+                            </span>
+                        </div>
+                    </Link>
+
                     <Link to="/Tuition">
                         <div className="group relative bg-hijauMuda rounded-lg py-2 text-hijau font-medium my-6  cursor-pointer">
                             <div className="absolute opacity-0 group-hover:opacity-100 inset-0 w-3 rounded-lg bg-hijau transition-all duration-300 ease-out group-hover:w-full "></div>

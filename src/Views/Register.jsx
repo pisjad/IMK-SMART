@@ -1,5 +1,9 @@
 const Register = () => {
-    return <></>;
+    return (
+        <>
+            <div className="bg-white w-full h-screen"></div>
+        </>
+    );
 };
 
 export default Register;
