@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 const Grade = () => {
     return (
         <>
-            <div className="w-full px-16 py-16 h-full flex font-dmsans">
+            <div className="bg-white w-full px-16 py-10 h-full flex font-dmsans">
                 <div className="sidebar hover:cursor-pointer w-2/12 pr-8 text-center text-lg flex-col pt-24">
                     <Link to="/Dashboard">
                         <div className="group relative bg-hijauMuda rounded-lg py-2 text-hijau font-medium mb-6 cursor-pointer">
