@@ -5,7 +5,7 @@ const Dashboard = () => {
     return (
         <>
             <div className="w-full px-16 py-16 h-full flex font-dmsans">
-                <div className="sidebar w-2/12 pr-8 text-center text-lg flex-col pt-24">
+                <div className="sidebar hover:cursor-pointer w-2/12 pr-8 text-center text-lg flex-col pt-24">
                     <div className="bg-hijau rounded-lg py-2 text-hijauMuda font-medium mb-6">
                         <p>Dashboard</p>
                     </div>
@@ -73,7 +73,7 @@ const Dashboard = () => {
                         <img src={art} className="w-5/12 ml-auto" />
                     </div>
                     <div className="bg-hijau rounded-2xl mt-6 p-4">
-                        <div className="text-hijauMuda  text-2xl font-bold mb-4">
+                        <div className="text-hijauMuda text-2xl font-bold mb-4">
                             Announcement
                         </div>
                         <div className="w-10/1 mx-auto overflow-auto scrollbar">

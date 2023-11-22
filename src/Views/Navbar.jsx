@@ -12,11 +12,11 @@ const Navbar = () => {
                     </div>
                     <div className="relative mx-auto">SMART</div>
                 </div>
-                <div className="flex items-center">
-                    <div>
+                <div className="flex items-center space-x-4 px-auto">
+                    <div className="flex hover:bg-slate-200 rounded-full items-center justify-center duration-300">
                         <img src={notification} className="w-8/12" />
                     </div>
-                    <div>
+                    <div className="flex hover:bg-slate-200 rounded-full items-center justify-center duration-300">
                         <img src={profile} className="w-8/12" />
                     </div>
                 </div>
