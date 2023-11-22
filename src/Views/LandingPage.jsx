@@ -1,9 +1,13 @@
+import { Link } from "react-router-dom";
 const LandingPage = () => {
     return (
         <>
-            <div className="p-6 h-screen bg-hijau items-center flex">
-                ini Landing
-            </div>
+            <Link to="/Dashboard">
+                
+                <div className="p-6 h-screen bg-hijau items-center flex">
+                    ini Landing ke Dashboard
+                </div>
+            </Link>
         </>
     );
 };
