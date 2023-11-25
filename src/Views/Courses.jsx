@@ -193,7 +193,7 @@ const Courses = () => {
                         <div className="w-full h-full bg-hijau p-4 rounded-2xl mt-4">
                             <div className="lg:flex flex-warp">
                                 <div className="text-hijauMuda text-2xl font-bold">
-                                    Course Schedule
+                                    Attendance
                                 </div>
                                 <div className="text-hijau rounded-full bg-kuning px-6 font-semibold py-1 ml-auto flex gap-4">
                                     <p>2nd Year 2023-2024</p>
@@ -202,118 +202,78 @@ const Courses = () => {
                             </div>
                             <div className="h-10/1 my-auto overflow-auto pr-4 scrollbar mt-4">
                                 <div className="h-[500px] flex-col">
-                                    <div className="w-full bg-hijauMuda p-4 rounded-2xl mt-4 flex">
+                                    <div className="w-full bg-hijauMuda p-4 rounded-2xl mt-4 flex items-center">
                                         <div className="w-4/12 h-full flex-col pb-4">
-                                            <div className="text-hijau font-bold pb-auto text-xl">
+                                            <div className="text-hijau font-bold pb-auto text-xl ">
                                                 Interaksi Manusia dan Komputer
-                                            </div>
-                                            <div className="text-hijau w-6/12 rounded-full bg-kuning text-center font-semibold py-0.5 mt-4">
-                                                Monday
                                             </div>
                                         </div>
                                         <div className="flex ml-auto text-lg text-center font-semibold gap-2">
-                                            <div className="p-10 bg-kuning w-28 h-28 text-hijau rounded-xl">
-                                                F2.4
-                                            </div>
                                             <div className="bg-ungu p-6 w-28 h-28 text-hijauMuda rounded-xl">
-                                                3 <br />
-                                                Credits
+                                                Present: 10
                                             </div>
                                             <div className="bg-hijau w-28 h-28 text-hijauMuda rounded-xl p-6">
-                                                07:00 <br />
-                                                08:00
+                                                Absent: 0
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="w-full bg-hijauMuda p-4 rounded-2xl mt-4 flex">
+                                    <div className="w-full bg-hijauMuda p-4 rounded-2xl mt-4 flex items-center mb-4">
                                         <div className="w-4/12 h-full flex-col pb-4">
-                                            <div className="text-hijau font-bold pb-auto text-xl">
+                                            <div className="text-hijau font-bold pb-auto text-xl ">
                                                 Interaksi Manusia dan Komputer
-                                            </div>
-                                            <div className="text-hijau w-6/12 rounded-full bg-kuning text-center font-semibold py-0.5 mt-4">
-                                                Monday
                                             </div>
                                         </div>
                                         <div className="flex ml-auto text-lg text-center font-semibold gap-2">
-                                            <div className="p-10 bg-kuning w-28 h-28 text-hijau rounded-xl">
-                                                F2.4
-                                            </div>
                                             <div className="bg-ungu p-6 w-28 h-28 text-hijauMuda rounded-xl">
-                                                3 <br />
-                                                Credits
+                                                Present: 10
                                             </div>
                                             <div className="bg-hijau w-28 h-28 text-hijauMuda rounded-xl p-6">
-                                                07:00 <br />
-                                                08:00
+                                                Absent: 0
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="w-full bg-hijauMuda p-4 rounded-2xl mt-4 flex">
+                                    <div className="w-full bg-hijauMuda p-4 rounded-2xl mt-4 flex items-center">
                                         <div className="w-4/12 h-full flex-col pb-4">
-                                            <div className="text-hijau font-bold pb-auto text-xl">
+                                            <div className="text-hijau font-bold pb-auto text-xl ">
                                                 Interaksi Manusia dan Komputer
-                                            </div>
-                                            <div className="text-hijau w-6/12 rounded-full bg-kuning text-center font-semibold py-0.5 mt-4">
-                                                Monday
                                             </div>
                                         </div>
                                         <div className="flex ml-auto text-lg text-center font-semibold gap-2">
-                                            <div className="p-10 bg-kuning w-28 h-28 text-hijau rounded-xl">
-                                                F2.4
-                                            </div>
                                             <div className="bg-ungu p-6 w-28 h-28 text-hijauMuda rounded-xl">
-                                                3 <br />
-                                                Credits
+                                                Present: 10
                                             </div>
                                             <div className="bg-hijau w-28 h-28 text-hijauMuda rounded-xl p-6">
-                                                07:00 <br />
-                                                08:00
+                                                Absent: 0
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="w-full bg-hijauMuda p-4 rounded-2xl mt-4 flex">
+                                    <div className="w-full bg-hijauMuda p-4 rounded-2xl mt-4 flex items-center">
                                         <div className="w-4/12 h-full flex-col pb-4">
-                                            <div className="text-hijau font-bold pb-auto text-xl">
+                                            <div className="text-hijau font-bold pb-auto text-xl ">
                                                 Interaksi Manusia dan Komputer
-                                            </div>
-                                            <div className="text-hijau w-6/12 rounded-full bg-kuning text-center font-semibold py-0.5 mt-4">
-                                                Monday
                                             </div>
                                         </div>
                                         <div className="flex ml-auto text-lg text-center font-semibold gap-2">
-                                            <div className="p-10 bg-kuning w-28 h-28 text-hijau rounded-xl">
-                                                F2.4
-                                            </div>
                                             <div className="bg-ungu p-6 w-28 h-28 text-hijauMuda rounded-xl">
-                                                3 <br />
-                                                Credits
+                                                Present: 10
                                             </div>
                                             <div className="bg-hijau w-28 h-28 text-hijauMuda rounded-xl p-6">
-                                                07:00 <br />
-                                                08:00
+                                                Absent: 0
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="w-full bg-hijauMuda p-4 rounded-2xl mt-4 flex">
+                                    <div className="w-full bg-hijauMuda p-4 rounded-2xl mt-4 flex items-center">
                                         <div className="w-4/12 h-full flex-col pb-4">
-                                            <div className="text-hijau font-bold pb-auto text-xl">
+                                            <div className="text-hijau font-bold pb-auto text-xl ">
                                                 Interaksi Manusia dan Komputer
-                                            </div>
-                                            <div className="text-hijau w-6/12 rounded-full bg-kuning text-center font-semibold py-0.5 mt-4">
-                                                Monday
                                             </div>
                                         </div>
                                         <div className="flex ml-auto text-lg text-center font-semibold gap-2">
-                                            <div className="p-10 bg-kuning w-28 h-28 text-hijau rounded-xl">
-                                                F2.4
-                                            </div>
                                             <div className="bg-ungu p-6 w-28 h-28 text-hijauMuda rounded-xl">
-                                                3 <br />
-                                                Credits
+                                                Present: 10
                                             </div>
                                             <div className="bg-hijau w-28 h-28 text-hijauMuda rounded-xl p-6">
-                                                07:00 <br />
-                                                08:00
+                                                Absent: 0
                                             </div>
                                         </div>
                                     </div>
@@ -345,7 +305,7 @@ const Courses = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="bg-hijau rounded-2xl p-4 ml-4 flex-col mt-6">
+                        <div className="dosen bg-hijau rounded-2xl p-4 ml-4 flex-col mt-6">
                             <div className="text-hijauMuda text-2xl font-bold mb-4">
                                 Lecturer
                             </div>
