@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import Eye from "../assets/Images/Eye.svg";
 import { motion } from "framer-motion";
 
 const Register = () => {
@@ -31,9 +30,10 @@ const Register = () => {
                                 type="text"
                                 placeholder="Your name"
                                 style={{
-                                    background: "#c0ddab",
+                                    background: "none",
                                     outline: "none",
                                     color: "black",
+                                    width: "100%",
                                 }}
                             />
                         </div>
@@ -48,9 +48,10 @@ const Register = () => {
                                 type="text"
                                 placeholder="Student ID"
                                 style={{
-                                    background: "#c0ddab",
+                                    background: "none",
                                     outline: "none",
                                     color: "black",
+                                    width: "100%",
                                 }}
                             />
                         </div>
@@ -65,10 +66,10 @@ const Register = () => {
                                 type="email"
                                 placeholder="example@gmailcom"
                                 style={{
-                                    background: "#c0ddab",
+                                    background: "none",
                                     outline: "none",
                                     color: "black",
-                                    width: "90%",
+                                    width: "100%",
                                 }}
                             />
                         </div>
@@ -83,19 +84,10 @@ const Register = () => {
                                 type="password"
                                 placeholder="Password"
                                 style={{
-                                    background: "#c0ddab",
+                                    background: "none",
                                     outline: "none",
                                     color: "black",
-                                }}
-                            />
-                            <img
-                                src={Eye}
-                                className="w-[7.0%] h-[41.0%]"
-                                alt="Eye Logo"
-                                style={{
-                                    position: "absolute",
-                                    right: 6,
-                                    top: 9,
+                                    width: "100%",
                                 }}
                             />
                         </div>
@@ -112,11 +104,35 @@ const Register = () => {
                         </Link>
                     </div>
 
-                    <Link to="/Dashboard">
-                        <button className="bg-zinc-900 text-hijauMuda rounded-full px-10 py-1 text-lg mx-auto flex justify-center font-semibold hover:bg-hijauMuda hover hover:scale-110 focus:scale-90 hover:text-hijau duration-300 ease-in-out">
-                            Register
-                        </button>
-                    </Link>
+                    <button
+                        className="bg-zinc-900 text-hijauMuda rounded-full px-10 py-1 text-lg mx-auto flex justify-center font-semibold hover:bg-hijauMuda hover hover:scale-110 focus:scale-90 hover:text-hijau duration-300 ease-in-out"
+                        onClick={() =>
+                            document.getElementById("my_modal_1").showModal()
+                        }
+                    >
+                        Register
+                    </button>
+                    <dialog id="my_modal_1" className="modal">
+                        <div className="modal-box bg-hijau text-hijauMuda">
+                            <h3 className="font-bold text-lg">
+                                Register Complete!
+                            </h3>
+                            <p className="py-4">
+                                Thank you for registering. Welcome to SMART, To
+                                get started, click the login button below to
+                                access the website
+                            </p>
+                            <div className="modal-action">
+                                <form method="dialog">
+                                    <Link to="/Login">
+                                        <button className=" btn rounded-full px-6 py-1">
+                                            Login
+                                        </button>
+                                    </Link>
+                                </form>
+                            </div>
+                        </div>
+                    </dialog>
                 </motion.div>
             </div>
         </>

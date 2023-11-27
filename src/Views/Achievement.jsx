@@ -162,11 +162,11 @@ const Achievement = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="w-full bg-ungu rounded-2xl p-4 flex-col mt-6">
-                                <div className="text-hijauMuda font-bold text-2xl mb-4">
+                            <div className="w-full bg-kuning rounded-2xl p-4 flex-col mt-6">
+                                <div className="text-hijau font-bold text-2xl mb-4">
                                     Finished Project
                                 </div>
-                                <div className="bg-hijau flex-col text-hijauMuda p-4 rounded-2xl mb-4">
+                                <div className="bg-ungu flex-col text-hijauMuda p-4 rounded-2xl mb-4">
                                     <div className="font-bold text-xl">
                                         CyberSentinel
                                     </div>
@@ -174,7 +174,7 @@ const Achievement = () => {
                                         Antivirus
                                     </div>
                                 </div>
-                                <div className="bg-hijau flex-col text-hijauMuda p-4 rounded-2xl mb-4">
+                                <div className="bg-ungu flex-col text-hijauMuda p-4 rounded-2xl mb-4">
                                     <div className="font-bold text-xl">
                                         CryptoFrame
                                     </div>
@@ -182,7 +182,7 @@ const Achievement = () => {
                                         Image Encryption
                                     </div>
                                 </div>
-                                <div className="bg-hijau flex-col text-hijauMuda p-4 rounded-2xl">
+                                <div className="bg-ungu flex-col text-hijauMuda p-4 rounded-2xl">
                                     <div className="font-bold text-xl">
                                         Recovolution
                                     </div>

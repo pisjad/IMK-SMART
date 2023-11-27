@@ -28,17 +28,10 @@ const Login = () => {
                             Email
                         </span>
                     </div>
-                    <div className="w-full h-[30px] bg-hijauMuda rounded-full pl-4 mb-8 flex justify-between ">
-                        <input
-                            type="text"
-                            placeholder="example@gmail.com"
-                            style={{
-                                background: "#c0ddab",
-                                outline: "none",
-                                color: "#113132",
-                            }}
-                        />
-                    </div>
+                    <input
+                        placeholder="example@gmail.com"
+                        className="w-full h-[30px] text-hijau  bg-hijauMuda rounded-full pl-4 mb-8 flex justify-between outline-none"
+                    ></input>
 
                     <div className="w-full text-left">
                         <span className="text-hijauMuda text-lg font-normal">
@@ -49,11 +42,7 @@ const Login = () => {
                         <input
                             type="password"
                             placeholder="Input your password"
-                            style={{
-                                background: "#c0ddab",
-                                outline: "none",
-                                color: "black",
-                            }}
+                            className="text-hijau bg-transparent w-full outline-none"
                         />
                         <img
                             src={Eye}
