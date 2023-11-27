@@ -1,4 +1,4 @@
-import arrow from "../assets/arrowdown.svg";
+// import arrow from "../assets/arrowdown.svg";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
@@ -82,7 +82,7 @@ const Courses = () => {
                                 </div>
                                 <div className="text-hijau rounded-full bg-kuning px-6 font-semibold py-1 ml-auto flex gap-4">
                                     <p>2nd Year 2023-2024</p>
-                                    <img src={arrow} className="" />
+                                    {/* <img src={arrow} className="" /> */}
                                 </div>
                             </div>
                             <div className="h-10/1 my-auto overflow-auto pr-4 scrollbar mt-4">
@@ -212,7 +212,7 @@ const Courses = () => {
                                 </div>
                                 <div className="text-hijau rounded-full bg-kuning px-6 font-semibold py-1 ml-auto flex gap-4">
                                     <p>2nd Year 2023-2024</p>
-                                    <img src={arrow} className="" />
+                                    {/* <img src={arrow} className="" /> */}
                                 </div>
                             </div>
                             <div className="h-10/1 my-auto overflow-auto pr-4 scrollbar mt-4">

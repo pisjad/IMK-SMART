@@ -84,7 +84,7 @@ const Profile = () => {
                                 Welcome Back,
                             </div>
                             <div className="font-bold text-3xl mb-2">
-                                Mr. Fajar Sr.
+                                Mr. Budi
                             </div>
                         </div>
                         <img src={art} className="w-5/12 ml-auto" />

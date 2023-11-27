@@ -166,7 +166,7 @@ const Career = () => {
                         </div>
                         <div className="bg-hijauMuda w-full h-auto rounded-2xl mt-2 p-4">
                             <div className="flex">
-                                <div className="bg-ungu w-7/12  rounded-3xl mr-auto">
+                                <div className="bg-ungu px-6  rounded-3xl mr-auto">
                                     <div className="text-hijauMuda text-xl text-center font-semibold ">
                                         Video Game Developer
                                     </div>
@@ -199,7 +199,7 @@ const Career = () => {
                         </div>
                         <div className="bg-hijauMuda w-full h-auto rounded-2xl mt-4 p-4">
                             <div className="flex">
-                                <div className="bg-ungu w-7/12  rounded-3xl mr-auto">
+                                <div className="bg-ungu px-6  rounded-3xl mr-auto">
                                     <div className="text-hijauMuda text-xl text-center font-semibold ">
                                         Full Stack Developer
                                     </div>
@@ -232,7 +232,7 @@ const Career = () => {
                         </div>
                         <div className="bg-hijauMuda w-full h-auto rounded-2xl mt-4 p-4">
                             <div className="flex">
-                                <div className="bg-ungu w-auto px-5  rounded-3xl mr-auto">
+                                <div className="bg-ungu w-auto px-6  rounded-3xl mr-auto">
                                     <div className="text-hijauMuda text-xl text-center font-semibold ">
                                         Data Engineer
                                     </div>
