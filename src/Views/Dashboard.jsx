@@ -1,5 +1,6 @@
 import art from "../assets/Images/Welcoming.svg";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 const Dashboard = () => {
     return (
@@ -59,7 +60,20 @@ const Dashboard = () => {
                         </div>
                     </Link>
                 </div>
-                <div className="kontener w-10/12 pt-24">
+                <motion.div
+                    initial={{ opacity: 0, x: 75 }}
+                    whileInView={{
+                        opacity: 1,
+                        x: 0,
+                        transition: {
+                            type: "spring",
+                            duration: 3.0,
+                            damping: 15,
+                            stiffness: 100,
+                        },
+                    }}
+                    className="kontener w-10/12 pt-24"
+                >
                     <div className="bg-hijau w-full rounded-2xl text-hijauMuda flex ">
                         <div className="mt-auto p-4">
                             <div className="font-bold text-3xl mb-2">
@@ -259,7 +273,7 @@ const Dashboard = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </motion.div>
             </div>
         </>
     );

@@ -1,6 +1,7 @@
 import art from "../assets/Images/Welcoming.svg";
 import artKotak from "../assets/Images/art2.svg";
 import fajar from "../assets/Images/fajar.png";
+import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 // import profile from "../assets/Images/profile.svg";
 // import * as React from "react";
@@ -63,7 +64,20 @@ const Profile = () => {
                         </div>
                     </Link>
                 </div>
-                <div className="kontener w-10/12 mt-24">
+                <motion.div
+                    initial={{ opacity: 0, x: 75 }}
+                    whileInView={{
+                        opacity: 1,
+                        x: 0,
+                        transition: {
+                            type: "spring",
+                            duration: 3.0,
+                            damping: 15,
+                            stiffness: 100,
+                        },
+                    }}
+                    className="kontener w-10/12 mt-24"
+                >
                     <div className="bg-hijau w-full rounded-2xl text-hijauMuda flex mb-6">
                         <div className="mt-auto p-4">
                             <div className="font-bold text-2xl mb-2">
@@ -175,12 +189,14 @@ const Profile = () => {
                                             clipRule="evenodd"
                                         />
                                     </svg>
-                                    <div className="text-hijauMuda font-medium text-xl">Herman Tholle</div>
+                                    <div className="text-hijauMuda font-medium text-xl">
+                                        Herman Tholle
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </motion.div>
             </div>
         </>
     );

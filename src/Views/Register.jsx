@@ -1,11 +1,21 @@
 import { Link } from "react-router-dom";
 import Eye from "../assets/Images/Eye.svg";
+import { motion } from "framer-motion";
 
 const Register = () => {
     return (
         <>
             <div className="bg-white w-full h-screen flex justify-center items-center">
-                <div className="w-[450px] bg-hijau rounded-xl font-dmsans p-8 flex flex-col items-center gap-3 mx-auto width: 100% position: fixed top: 0 left: 0">
+                <motion.div
+                    initial={{ opacity: 0, scale: 0.5 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{
+                        duration: 0.8,
+                        delay: 0.3,
+                        ease: [0, 0.71, 0.2, 1.01],
+                    }}
+                    className="w-[450px] bg-hijau rounded-xl font-dmsans p-8 flex flex-col items-center gap-3 mx-auto width: 100% position: fixed top: 0 left: 0"
+                >
                     <div className="w-full text-left mb-4">
                         <span className="text-hijauMuda text-left text-3xl font-bold">
                             Register
@@ -107,7 +117,7 @@ const Register = () => {
                             Register
                         </button>
                     </Link>
-                </div>
+                </motion.div>
             </div>
         </>
     );

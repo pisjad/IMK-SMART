@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 const Career = () => {
     return (
@@ -58,7 +59,20 @@ const Career = () => {
                         </div>
                     </Link>
                 </div>
-                <div className="kongtener w-10/12 h-full flex  mt-24">
+                <motion.div
+                    initial={{ opacity: 0, x: 75 }}
+                    whileInView={{
+                        opacity: 1,
+                        x: 0,
+                        transition: {
+                            type: "spring",
+                            duration: 3.0,
+                            damping: 15,
+                            stiffness: 100,
+                        },
+                    }}
+                    className="kongtener w-10/12 h-full flex  mt-24"
+                >
                     <div className="flex-col">
                         <div className="flex">
                             <div className="w-full h-auto bg-hijau rounded-2xl p-4">
@@ -250,7 +264,7 @@ const Career = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </motion.div>
             </div>
         </>
     );

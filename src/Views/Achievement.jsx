@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 import art2 from "../assets/Images/art2.svg";
 const Achievement = () => {
     return (
@@ -59,7 +60,20 @@ const Achievement = () => {
                         <p>Achievement</p>
                     </div>
                 </div>
-                <div className="kontener w-10/12 flex-col mt-24">
+                <motion.div
+                    initial={{ opacity: 0, x: 75 }}
+                    whileInView={{
+                        opacity: 1,
+                        x: 0,
+                        transition: {
+                            type: "spring",
+                            duration: 3.0,
+                            damping: 15,
+                            stiffness: 100,
+                        },
+                    }}
+                    className="kontener w-10/12 flex-col mt-24"
+                >
                     <div className="bg-kuning flex-col w-full rounded-2xl p-4">
                         <div className="text-2xl mb-4 text-hijau font-bold">
                             Achievement Showcase
@@ -237,7 +251,7 @@ const Achievement = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </motion.div>
             </div>
         </>
     );

@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import art from "../assets/Images/Welcoming.svg";
 import History from "../assets/history.svg";
+import { motion } from "framer-motion";
 import Arrow from "../assets/Arrow.svg";
 
 const Tuition = () => {
@@ -62,7 +63,20 @@ const Tuition = () => {
                         </div>
                     </Link>
                 </div>
-                <div className="kontener w-10/12 mt-24">
+                <motion.div
+                    initial={{ opacity: 0, x: 75 }}
+                    whileInView={{
+                        opacity: 1,
+                        x: 0,
+                        transition: {
+                            type: "spring",
+                            duration: 3.0,
+                            damping: 15,
+                            stiffness: 100,
+                        },
+                    }}
+                    className="kontener w-10/12 mt-24"
+                >
                     <div className="w-full flex gap-6">
                         <div className="bg-hijau w-full rounded-2xl text-hijauMuda flex mb-6">
                             <div className="mt-auto p-4">
@@ -78,9 +92,9 @@ const Tuition = () => {
                         <div className="bg-hijauMuda w-4/12 rounded-2xl text-hijau flex mb-6 p-4 flex-col">
                             <img
                                 src={Arrow}
-                                className="w-5/12 bg-hijau rounded-full p-4"
+                                className="w-5/12 bg-hijau rounded-full ml-2  p-4"
                             />
-                            <div className="font-bold text-hijau text-xl mt-12">
+                            <div className="font-bold text-hijau text-2xl mt-auto">
                                 Download <br /> Payment Guide
                             </div>
                         </div>
@@ -162,7 +176,7 @@ const Tuition = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </motion.div>
             </div>
         </>
     );

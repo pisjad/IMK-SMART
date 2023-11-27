@@ -1,5 +1,7 @@
 import arrow from "../assets/arrowdown.svg";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
+
 const Courses = () => {
     return (
         <>
@@ -58,7 +60,20 @@ const Courses = () => {
                         </div>
                     </Link>
                 </div>
-                <div className="kongtener w-10/12 h-full mt-24 flex">
+                <motion.div
+                    initial={{ opacity: 0, x: 75 }}
+                    whileInView={{
+                        opacity: 1,
+                        x: 0,
+                        transition: {
+                            type: "spring",
+                            duration: 3.0,
+                            damping: 15,
+                            stiffness: 100,
+                        },
+                    }}
+                    className="kongtener w-10/12 h-full mt-24 flex"
+                >
                     <div className="w-8/12 h-full">
                         <div className="w-full h-full bg-hijau p-4 rounded-2xl ">
                             <div className="lg:flex flex-warp">
@@ -448,7 +463,7 @@ const Courses = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </motion.div>
             </div>
         </>
     );
