@@ -79,9 +79,10 @@ const Dashboard = () => {
                             <div className="font-bold text-3xl mb-2">
                                 Welcome Back, Mr. Fajar Sr.!
                             </div>
-                            <div className="text-lg">
-                                {`Remember, tough times don't last, `}
-                                <br /> but tough students do!
+                            <div className="text-lg w-8/12">
+                                Embrace the journey, cherish every
+                                step, and nurture the unique magic within your
+                                child
                             </div>
                         </div>
                         <img src={art} className="w-5/12 ml-auto" />

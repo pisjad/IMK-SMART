@@ -190,7 +190,7 @@ const Profile = () => {
                                         />
                                     </svg>
                                     <div className="text-hijauMuda font-medium text-xl">
-                                        Herman Tholle
+                                        Mahardeka Tri Ananta
                                     </div>
                                 </div>
                             </div>
