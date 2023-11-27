@@ -1,12 +1,10 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
-import Eye from "../assets/Images/Eye.svg";
-
 const Login = () => {
     return (
         <>
-            <div className="bg-white w-full h-screen flex justify-center items-center">
+            <div className="bg-white w-full min-h-screen flex justify-center items-center">
                 <motion.div
                     initial={{ opacity: 0, scale: 0.5 }}
                     animate={{ opacity: 1, scale: 1 }}
@@ -15,7 +13,7 @@ const Login = () => {
                         delay: 0.3,
                         ease: [0, 0.71, 0.2, 1.01],
                     }}
-                    className="w-[480px] bg-hijau rounded-xl font-dmsans p-8 flex flex-col items-center gap-3 mx-auto width: 100% position: fixed top: 0 left: 0"
+                    className="w-full max-w-[480px] bg-hijau rounded-xl font-dmsans p-8 flex flex-col items-center gap-3 mx-auto"
                 >
                     <div className="w-full text-left mb-4">
                         <span className="text-hijauMuda text-left text-3xl font-bold font-dmsans">
@@ -43,12 +41,6 @@ const Login = () => {
                             type="password"
                             placeholder="Input your password"
                             className="text-hijau bg-transparent w-full outline-none"
-                        />
-                        <img
-                            src={Eye}
-                            className="w-[7.0%] h-[41.0%]"
-                            alt="Eye Logo"
-                            style={{ position: "absolute", right: 6, top: 9 }}
                         />
                     </div>
 

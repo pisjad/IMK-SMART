@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const Register = () => {
     return (
         <>
-            <div className="bg-white w-full h-screen flex justify-center items-center">
+            <div className="bg-white w-full min-h-screen flex justify-center items-center">
                 <motion.div
                     initial={{ opacity: 0, scale: 0.5 }}
                     animate={{ opacity: 1, scale: 1 }}
@@ -13,7 +13,7 @@ const Register = () => {
                         delay: 0.3,
                         ease: [0, 0.71, 0.2, 1.01],
                     }}
-                    className="w-[450px] bg-hijau rounded-xl font-dmsans p-8 flex flex-col items-center gap-3 mx-auto width: 100% position: fixed top: 0 left: 0"
+                    className="w-full max-w-[450px] bg-hijau rounded-xl font-dmsans p-8 flex flex-col items-center gap-3 mx-auto"
                 >
                     <div className="w-full text-left mb-4">
                         <span className="text-hijauMuda text-left text-3xl font-bold">
@@ -21,7 +21,7 @@ const Register = () => {
                         </span>
                     </div>
 
-                    <div className="w-full flex flex-col flex-wrap ">
+                    <div className="w-full flex flex-col flex-wrap mb-2">
                         <span className="text-hijauMuda text-g font-normal">
                             Full Name
                         </span>
@@ -64,7 +64,7 @@ const Register = () => {
                         <div className="w-full h-[30px] bg-hijauMuda rounded-full backdrop-blur-[12px] pl-4 mb-1 flex justify-content: center align-items: center">
                             <input
                                 type="email"
-                                placeholder="example@gmailcom"
+                                placeholder="example@gmail.com"
                                 style={{
                                     background: "none",
                                     outline: "none",
@@ -93,9 +93,9 @@ const Register = () => {
                         </div>
                     </div>
 
-                    <div className="w-full text-right mb-4">
-                        <span className="text-hijauMuda  font-normal">
-                            Already have an account?{" "}
+                    <div className="w-full text-right mb-5">
+                        <span className="text-hijauMuda font-normal">
+                            Already have an account?
                         </span>
                         <Link to="/Login">
                             <span className="text-hijauMuda hover:text-lime-300 duration-300 font-bold">
