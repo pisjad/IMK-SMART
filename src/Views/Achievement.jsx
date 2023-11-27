@@ -71,20 +71,29 @@ const Achievement = () => {
                                     <img src={art2} className="" />
                                 </div>
                             </div>
-                            <div className="bg-hijau flex-col w-3/12 rounded-2xl mr-4 p-4">
+                            <div className="bg-hijau flex flex-col w-3/12 rounded-2xl mr-4 p-4">
                                 <div className="bg-kuning px-5 text-hijau font-bold text-lg w-fit rounded-full">
                                     1st Place
                                 </div>
-                                <div className="bg-black">
-                                    <div className="text-hijauMuda font-bold text-2xl">
-                                        DEFCON Capture The Flag 2022
-                                    </div>
-                                    <div className="text-hijauMuda font-medium">
-                                        Las Vegas, USA
-                                    </div>
+                                <div className="flex mt-auto self-stretch text-hijauMuda font-bold text-2xl ">
+                                    DEFCON Capture The Flag 2022
+                                </div>
+                                <div className="text-hijauMuda font-medium">
+                                    Las Vegas, USA
                                 </div>
                             </div>
-                            <div className="bg-hijau flex-col rounded-2xl w-3/12"></div>
+
+                            <div className="bg-hijau flex flex-col w-3/12 items-start rounded-2xl overflow-hidden p-4">
+                                <div className="bg-kuning px-5 text-hijau font-bold text-lg w-fit rounded-full">
+                                    3rd Place
+                                </div>
+                                <p className="flex mt-auto self-stretch  font-bold text-hijau-muda text-2xl text-hijauMuda ">
+                                    Google Online Marketing Challenge 2023
+                                </p>
+                                <div className="text-hijauMuda self-stretch font-medium text-hijau-muda text-lg ">
+                                    Leipzig, German
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div className="w-full flex">

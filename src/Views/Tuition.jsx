@@ -1,4 +1,8 @@
 import { Link } from "react-router-dom";
+import art from "../assets/Images/Welcoming.svg";
+import History from "../assets/history.svg";
+import Arrow from "../assets/Arrow.svg";
+
 const Tuition = () => {
     return (
         <>
@@ -57,6 +61,107 @@ const Tuition = () => {
                             </span>
                         </div>
                     </Link>
+                </div>
+                <div className="kontener w-10/12 mt-24">
+                    <div className="w-full flex gap-6">
+                        <div className="bg-hijau w-full rounded-2xl text-hijauMuda flex mb-6">
+                            <div className="mt-auto p-4">
+                                <div className="font-bold text-2xl mb-2">
+                                    Tuition Fee
+                                </div>
+                                <div className="font-bold text-3xl mb-2">
+                                    Rp20.000.000
+                                </div>
+                            </div>
+                            <img src={art} className="w-7/12 ml-auto" />
+                        </div>
+                        <div className="bg-hijauMuda w-4/12 rounded-2xl text-hijau flex mb-6 p-4 flex-col">
+                            <img
+                                src={Arrow}
+                                className="w-5/12 bg-hijau rounded-full p-4"
+                            />
+                            <div className="font-bold text-hijau text-xl mt-12">
+                                Download <br /> Payment Guide
+                            </div>
+                        </div>
+                    </div>
+                    <div className="bg-hijau h-auto w-full rounded-2xl text-hijauMuda flex-col mb-auto p-4">
+                        <div className="w-full text-2xl font-bold mb-4">
+                            Payment History
+                        </div>
+                        <div className="h-[520px] overflow-auto scrollbar pr-4">
+                            <div className="bg-hijauMuda w-full rounded-2xl text-hijau flex p-6 mb-6 items-center">
+                                <img
+                                    src={History}
+                                    className="justify-items-center flex "
+                                />
+                                <div className="text-right flex ml-auto flex-col">
+                                    <div className="font-bold text-xl">
+                                        Paid the tuition fee for Semester 3
+                                    </div>
+                                    <div className="pt-2 text-lg">
+                                        23/12/2023
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="bg-hijauMuda w-full rounded-2xl text-hijau flex p-6 mb-6 items-center">
+                                <img
+                                    src={History}
+                                    className="justify-items-center flex "
+                                />
+                                <div className="text-right flex ml-auto flex-col">
+                                    <div className="font-bold text-xl">
+                                        Paid the tuition fee for Semester 3
+                                    </div>
+                                    <div className="pt-2 text-lg">
+                                        23/12/2023
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="bg-hijauMuda w-full rounded-2xl text-hijau flex p-6 mb-6 items-center">
+                                <img
+                                    src={History}
+                                    className="justify-items-center flex "
+                                />
+                                <div className="text-right flex ml-auto flex-col">
+                                    <div className="font-bold text-xl">
+                                        Paid the tuition fee for Semester 3
+                                    </div>
+                                    <div className="pt-2 text-lg">
+                                        23/12/2023
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="bg-hijauMuda w-full rounded-2xl text-hijau flex p-6 mb-6 items-center">
+                                <img
+                                    src={History}
+                                    className="justify-items-center flex "
+                                />
+                                <div className="text-right flex ml-auto flex-col">
+                                    <div className="font-bold text-xl">
+                                        Paid the tuition fee for Semester 3
+                                    </div>
+                                    <div className="pt-2 text-lg">
+                                        23/12/2023
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="bg-hijauMuda w-full rounded-2xl text-hijau flex p-6 items-center">
+                                <img
+                                    src={History}
+                                    className="justify-items-center flex "
+                                />
+                                <div className="text-right flex ml-auto flex-col">
+                                    <div className="font-bold text-xl">
+                                        Paid the tuition fee for Semester 3
+                                    </div>
+                                    <div className="pt-2 text-lg">
+                                        23/12/2023
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </>

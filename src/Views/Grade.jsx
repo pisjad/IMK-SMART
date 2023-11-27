@@ -72,7 +72,7 @@ const Grade = () => {
                                         <img src={arrow} className="" />
                                     </div>
                                 </div>
-                                <div className="h-10/1 my-auto overflow-auto pr-4 scrollbar mt-4">
+                                <div className="my-auto overflow-auto pr-4 scrollbar mt-4">
                                     <div className="h-[500px] flex-col">
                                         <div className="w-full bg-hijauMuda p-4 rounded-2xl mt-4 flex">
                                             <div className="w-4/12 h-full flex-col pb-4">

@@ -70,7 +70,7 @@ const Career = () => {
                                         <div className="text-5xl font-bold text-hijau">
                                             87%
                                         </div>
-                                        <div className="bg-hijau w-7/12  rounded-3xl ml-auto">
+                                        <div className="bg-hijau w-7/12  rounded-full ml-auto">
                                             <div className="text-hijauMuda text-xl text-center font-semibold ">
                                                 Multimedia <br />
                                                 Stream
@@ -90,7 +90,7 @@ const Career = () => {
                                         <div className="text-5xl font-bold text-hijau">
                                             76%
                                         </div>
-                                        <div className="bg-hijau w-7/12  rounded-3xl ml-auto">
+                                        <div className="bg-hijau w-7/12  rounded-full ml-auto">
                                             <div className="text-hijauMuda text-xl text-center font-semibold ">
                                                 Data Science <br />
                                                 Stream
