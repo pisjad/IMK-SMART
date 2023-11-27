@@ -78,7 +78,7 @@ const Career = () => {
                                         </div>
                                     </div>
                                     <div className="text-hijau">
-                                        succes rate
+                                        success rate
                                     </div>
                                     <div className="bg-ungu rounded-lg text-hijauMuda mt-2 p-2">
                                         Based on your grade in Interaksi Manusia
@@ -98,7 +98,7 @@ const Career = () => {
                                         </div>
                                     </div>
                                     <div className="text-hijau">
-                                        succes rate
+                                        success rate
                                     </div>
                                     <div className="bg-ungu rounded-lg text-hijauMuda mt-2 p-2">
                                         Based on your grade in Interaksi Manusia
@@ -146,7 +146,7 @@ const Career = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="w-7/12 h-auto ml-6 rounded-2xl bg-hijau p-4 ">
+                    <div className="w-7/12 h-fit ml-6 rounded-2xl bg-hijau p-4 ">
                         <div className="text-2xl text-hijauMuda font-semibold flex-col">
                             Career Recomendation and Roadmap
                         </div>

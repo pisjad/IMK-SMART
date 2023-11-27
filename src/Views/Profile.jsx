@@ -70,7 +70,7 @@ const Profile = () => {
                                 Welcome Back,
                             </div>
                             <div className="font-bold text-3xl mb-2">
-                                Muhammad Fajar
+                                Mr. Fajar Sr.
                             </div>
                         </div>
                         <img src={art} className="w-5/12 ml-auto" />

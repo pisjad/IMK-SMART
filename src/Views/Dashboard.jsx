@@ -63,7 +63,7 @@ const Dashboard = () => {
                     <div className="bg-hijau w-full rounded-2xl text-hijauMuda flex ">
                         <div className="mt-auto p-4">
                             <div className="font-bold text-3xl mb-2">
-                                Welcome Back, Fajar!
+                                Welcome Back, Mr. Fajar Sr.!
                             </div>
                             <div className="text-lg">
                                 {`Remember, tough times don't last, `}
