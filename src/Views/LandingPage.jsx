@@ -22,7 +22,7 @@ const LandingPage = () => {
                             Get Started with SMART
                         </div>
                         <div className="text-center text-hijauMuda mx-auto mb-16">{`SMART is a comprehensive educational platform designed to strengthen the connection between parents, teachers, and students. Our mission is to empower parents with the tools to monitor their child's academic progress and facilitate seamless communication with teachers.`}</div>
-                        <Link to="/Dashboard">
+                        <Link to="/Login">
                             <button className="bg-zinc-900 text-hijauMuda rounded-full px-10 py-1 text-lg mx-auto flex justify-center font-semibold hover:bg-hijauMuda hover hover:scale-110 focus:scale-90 hover:text-hijau duration-300 ease-in-out">
                                 Login
                             </button>

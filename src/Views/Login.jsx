@@ -1,7 +1,76 @@
+import { Link } from "react-router-dom";
+
+import Eye from "../assets/Images/Eye.svg";
+
 const Login = () => {
     return (
         <>
-            <div className="bg-white w-full h-screen"></div>
+            <div className="bg-white w-full h-screen flex justify-center items-center">
+                <div className="w-[480px] bg-hijau rounded-xl font-dmsans p-8 flex flex-col items-center gap-3 mx-auto width: 100% position: fixed top: 0 left: 0">
+                    <div className="w-full text-left mb-4">
+                        <span className="text-hijauMuda text-left text-3xl font-bold font-dmsans">
+                            Login
+                        </span>
+                    </div>
+
+                    <div className="w-full text-left">
+                        <span className="text-hijauMuda text-lg font-normal">
+                            Email
+                        </span>
+                    </div>
+                    <div className="w-full h-[30px] bg-hijauMuda rounded-full pl-4 mb-8 flex justify-between ">
+                        <input
+                            type="text"
+                            placeholder="example@gmail.com"
+                            style={{
+                                background: "#c0ddab",
+                                outline: "none",
+                                color: "#113132",
+                            }}
+                        />
+                    </div>
+
+                    <div className="w-full text-left">
+                        <span className="text-hijauMuda text-lg font-normal">
+                            Password
+                        </span>
+                    </div>
+                    <div className="w-full h-[30px] bg-hijauMuda rounded-full pl-4 mb-5 flex justify-between ">
+                        <input
+                            type="password"
+                            placeholder="Input your password"
+                            style={{
+                                background: "#c0ddab",
+                                outline: "none",
+                                color: "black",
+                            }}
+                        />
+                        <img
+                            src={Eye}
+                            className="w-[7.0%] h-[41.0%]"
+                            alt="Eye Logo"
+                            style={{ position: "absolute", right: 6, top: 9 }}
+                        />
+                    </div>
+
+                    <div className="w-full text-right mb-5">
+                        <span className="text-hijauMuda text-g font-normal">
+                            Don’t have account?{" "}
+                        </span>
+                        <Link to="/Register">
+                            <span className="text-hijauMuda text-g font-bold">
+                                Register
+                            </span>
+                        </Link>
+                    </div>
+
+                    <Link to="/Dashboard">
+                        <button className="bg-zinc-900 text-hijauMuda rounded-full px-10 py-1 text-lg mx-auto flex justify-center font-semibold hover:bg-hijauMuda hover hover:scale-110 focus:scale-90 hover:text-hijau duration-300 ease-in-out">
+                            Login
+                        </button>
+                    </Link>
+                </div>
+            </div>
         </>
     );
 };
