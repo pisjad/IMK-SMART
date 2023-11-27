@@ -15,13 +15,15 @@ const LandingPage = () => {
                             delay: 0.5,
                             ease: [0, 0.71, 0.2, 1.01],
                         }}
-                        className="flex-col flex mx-auto justify-center text-center items-center w-5/12"
+                        className="flex-col flex mx-auto justify-center text-center items-center w-full sm:w-5/12"
                     >
-                        <img src={bulbLogo} className="mb-12" />
+                        <img src={bulbLogo} className="sm:scale-100 scale-75 mb-4 sm:mb-12" />
                         <div className="text-hijauMuda font-bold text-5xl mb-4">
                             Get Started with SMART
                         </div>
-                        <div className="text-center text-hijauMuda mx-auto mb-16">{`SMART is a comprehensive educational platform designed to strengthen the connection between parents, teachers, and students. Our mission is to empower parents with the tools to monitor their child's academic progress and facilitate seamless communication with teachers.`}</div>
+                        <div className="text-center text-hijauMuda mx-3 sm:mx-auto mb-6 sm:mb-12">
+                            {`SMART is a comprehensive educational platform designed to strengthen the connection between parents, teachers, and students. Our mission is to empower parents with the tools to monitor their child's academic progress and facilitate seamless communication with teachers.`}
+                        </div>
                         <Link to="/Login">
                             <button className="bg-zinc-900 text-hijauMuda rounded-full px-10 py-1 text-lg mx-auto flex justify-center font-semibold hover:bg-hijauMuda hover hover:scale-110 focus:scale-90 hover:text-hijau duration-300 ease-in-out">
                                 Login

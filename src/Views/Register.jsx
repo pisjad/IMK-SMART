@@ -102,11 +102,11 @@ const Register = () => {
                     </div>
 
                     <div className="w-full text-right mb-4">
-                        <span className="text-hijauMuda text-g font-normal">
+                        <span className="text-hijauMuda  font-normal">
                             Already have an account?{" "}
                         </span>
                         <Link to="/Login">
-                            <span className="text-hijauMuda text-g font-bold">
+                            <span className="text-hijauMuda hover:text-lime-300 duration-300 font-bold">
                                 Login
                             </span>
                         </Link>

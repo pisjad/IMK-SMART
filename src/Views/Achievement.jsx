@@ -79,12 +79,17 @@ const Achievement = () => {
                             Achievement Showcase
                         </div>
                         <div className="flex w-full">
-                            <div className="bg-hijau flex w-6/12 mr-4 rounded-2xl">
-                                <div className="w-6/12 ml-4 mb-4 flex mt-auto mr-auto text-hijauMuda font-bold text-2xl">{`Fajar's Portfolio`}</div>
+                            <a
+                                href="https://essams.com/index.html"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="group bg-hijau flex w-6/12 mr-4 rounded-2xl cursor-pointer"
+                            >
+                                <div className="w-6/12 ml-4 mb-4 flex mt-auto mr-auto text-hijauMuda font-bold group-hover:text-3xl text-2xl duration-300">{`Fajar's Portfolio`}</div>
                                 <div className="w-6/12">
                                     <img src={art2} className="" />
                                 </div>
-                            </div>
+                            </a>
                             <div className="bg-hijau flex flex-col w-3/12 rounded-2xl mr-4 p-4">
                                 <div className="bg-kuning px-5 text-hijau font-bold text-lg w-fit rounded-full">
                                     1st Place

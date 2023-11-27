@@ -109,11 +109,37 @@ const Dashboard = () => {
                                 </div>
                                 <div className="bg-hijauMuda text-hijau w-[300px] rounded-xl p-5 mb-6 ml-4">
                                     <div className="font-bold text-lg ">
-                                        Interaksi Manusia dan Komputer
+                                        Kecerdasan Buatan
                                     </div>
-                                    <div className="mb-4">
-                                        Mahardeka Tri Ananta
+                                    <div className="mb-4">Achmad Ridok</div>
+                                    <div className="">
+                                        Attention students, the Artificial
+                                        Intelligence class scheduled for today
+                                        has been canceled. Please be informed
+                                        and plan accordingly. Stay tuned for
+                                        further updates on rescheduling. Thank
+                                        you for your understanding.
                                     </div>
+                                </div>
+                                <div className="bg-hijauMuda text-hijau w-[300px] rounded-xl p-5 mb-6 ml-4">
+                                    <div className="font-bold text-lg ">
+                                        Desain Analisis Algoritma
+                                    </div>
+                                    <div className="mb-4">Mahendra Data</div>
+                                    <div className="">
+                                        Dear students enrolled in the Design and
+                                        Analysis of Algorithms class, we would
+                                        like to inform you that there will be a
+                                        quiz scheduled for tomorrow. Be prepared
+                                        to demonstrate your understanding of the
+                                        course material.
+                                    </div>
+                                </div>
+                                <div className="bg-hijauMuda text-hijau w-[300px] rounded-xl p-5 mb-6 ml-4">
+                                    <div className="font-bold text-lg ">
+                                        Jaringan Komputer
+                                    </div>
+                                    <div className="mb-4">Ahmad Basuki</div>
                                     <div className="">
                                         Dear students, please be informed that
                                         the midterm exam for the Human-Computer
@@ -124,47 +150,16 @@ const Dashboard = () => {
                                 </div>
                                 <div className="bg-hijauMuda text-hijau w-[300px] rounded-xl p-5 mb-6 ml-4">
                                     <div className="font-bold text-lg ">
-                                        Interaksi Manusia dan Komputer
+                                        Basis Data
                                     </div>
-                                    <div className="mb-4">
-                                        Mahardeka Tri Ananta
-                                    </div>
+                                    <div className="mb-4">Fais Al Huda</div>
                                     <div className="">
-                                        Dear students, please be informed that
-                                        the midterm exam for the Human-Computer
-                                        Interaction course will take place next
-                                        week, and more information will be
-                                        provided soon.
-                                    </div>
-                                </div>
-                                <div className="bg-hijauMuda text-hijau w-[300px] rounded-xl p-5 mb-6 ml-4">
-                                    <div className="font-bold text-lg ">
-                                        Interaksi Manusia dan Komputer
-                                    </div>
-                                    <div className="mb-4">
-                                        Mahardeka Tri Ananta
-                                    </div>
-                                    <div className="">
-                                        Dear students, please be informed that
-                                        the midterm exam for the Human-Computer
-                                        Interaction course will take place next
-                                        week, and more information will be
-                                        provided soon.
-                                    </div>
-                                </div>
-                                <div className="bg-hijauMuda text-hijau w-[300px] rounded-xl p-5 mb-6 ml-4">
-                                    <div className="font-bold text-lg ">
-                                        Interaksi Manusia dan Komputer
-                                    </div>
-                                    <div className="mb-4">
-                                        Mahardeka Tri Ananta
-                                    </div>
-                                    <div className="">
-                                        Dear students, please be informed that
-                                        the midterm exam for the Human-Computer
-                                        Interaction course will take place next
-                                        week, and more information will be
-                                        provided soon.
+                                        Attention students, the Data Base class
+                                        scheduled for today has been canceled.
+                                        Please be informed and plan accordingly.
+                                        Stay tuned for further updates on
+                                        rescheduling. Thank you for your
+                                        understanding.
                                     </div>
                                 </div>
                             </div>
@@ -178,14 +173,14 @@ const Dashboard = () => {
                             <div className="flex bg-hijauMuda rounded-xl p-4 text-hijau mb-4">
                                 <div className="mr-auto">
                                     <div className="font-bold text-lg">
-                                        Laporan Praktikum 3
+                                        Assignment 5
                                     </div>
                                     <div className="">
-                                        19/11/2023 - 26/11/2023
+                                        25/11/2023 - 27/11/2023
                                     </div>
                                 </div>
                                 <div className="ml-auto font-bold mt-auto">
-                                    Basis Data
+                                    Kecerdasan Buatan
                                 </div>
                             </div>
                             <div className="flex bg-hijauMuda rounded-xl p-4 text-hijau mb-4">
@@ -204,27 +199,27 @@ const Dashboard = () => {
                             <div className="flex bg-hijauMuda rounded-xl p-4 text-hijau mb-4">
                                 <div className="mr-auto">
                                     <div className="font-bold text-lg">
-                                        Laporan Praktikum 3
+                                        Laporan Praktikum 4
                                     </div>
                                     <div className="">
-                                        19/11/2023 - 26/11/2023
+                                        16/11/2023 - 20/11/2023
                                     </div>
                                 </div>
                                 <div className="ml-auto font-bold mt-auto">
-                                    Basis Data
+                                    Jaringan Komputer
                                 </div>
                             </div>
                             <div className="flex bg-hijauMuda rounded-xl p-4 text-hijau mb-4">
                                 <div className="mr-auto">
                                     <div className="font-bold text-lg">
-                                        Laporan Praktikum 3
+                                        Quiz 2
                                     </div>
                                     <div className="">
-                                        19/11/2023 - 26/11/2023
+                                        25/11/2023 - 27/11/2023
                                     </div>
                                 </div>
                                 <div className="ml-auto font-bold mt-auto">
-                                    Basis Data
+                                    Desain Analisis Algoritma
                                 </div>
                             </div>
                             <div className="flex bg-hijauMuda rounded-xl p-4 text-hijau">
@@ -237,7 +232,7 @@ const Dashboard = () => {
                                     </div>
                                 </div>
                                 <div className="ml-auto font-bold mt-auto">
-                                    Basis Data
+                                    Interaksi Manusia dan Komputer
                                 </div>
                             </div>
                         </div>

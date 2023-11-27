@@ -136,7 +136,7 @@ const Profile = () => {
                                 <div className="font-bold mb-4 text-hijau text-xl text-center mx-4">
                                     Faculty of Computer Science
                                 </div>
-                                <div className="mb-3 text-lg text-hijau font-medium bg-kuning rounded-full px-6 py-0.5">
+                                <div className="mb-3 text-lg text-hijau font-medium bg-kuning rounded-full px-6 py-0.5 text-center mx-auto">
                                     Informatics Engineering
                                 </div>
                                 <div className="mb-auto font-semibold text-hijau">

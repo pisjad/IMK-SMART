@@ -89,15 +89,21 @@ const Tuition = () => {
                             </div>
                             <img src={art} className="w-7/12 ml-auto" />
                         </div>
-                        <div className="bg-hijauMuda w-4/12 rounded-2xl text-hijau flex mb-6 p-4 flex-col">
+
+                        <a
+                            href="https://selma.ub.ac.id/tata-cara-pembayaran/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="group cursor-pointer hover:bg-kuning bg-hijauMuda w-4/12 rounded-2xl text-hijau flex mb-6 p-4 flex-col duration-300"
+                        >
                             <img
                                 src={Arrow}
-                                className="w-5/12 bg-hijau rounded-full ml-2  p-4"
+                                className="w-5/12 bg-hijau rounded-full ml-2 group-hover:rotate-90 duration-300 p-4"
                             />
                             <div className="font-bold text-hijau text-2xl mt-auto">
                                 Download <br /> Payment Guide
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div className="bg-hijau h-auto w-full rounded-2xl text-hijauMuda flex-col mb-auto p-4">
                         <div className="w-full text-2xl font-bold mb-4">
@@ -111,7 +117,7 @@ const Tuition = () => {
                                 />
                                 <div className="text-right flex ml-auto flex-col">
                                     <div className="font-bold text-xl">
-                                        Paid the tuition fee for Semester 3
+                                        Paid the tuition fee for Semester 5
                                     </div>
                                     <div className="pt-2 text-lg">
                                         23/12/2023
@@ -125,10 +131,10 @@ const Tuition = () => {
                                 />
                                 <div className="text-right flex ml-auto flex-col">
                                     <div className="font-bold text-xl">
-                                        Paid the tuition fee for Semester 3
+                                        Paid the tuition fee for Semester 4
                                     </div>
                                     <div className="pt-2 text-lg">
-                                        23/12/2023
+                                        23/01/2023
                                     </div>
                                 </div>
                             </div>
@@ -142,7 +148,7 @@ const Tuition = () => {
                                         Paid the tuition fee for Semester 3
                                     </div>
                                     <div className="pt-2 text-lg">
-                                        23/12/2023
+                                        23/12/2022
                                     </div>
                                 </div>
                             </div>
@@ -153,10 +159,10 @@ const Tuition = () => {
                                 />
                                 <div className="text-right flex ml-auto flex-col">
                                     <div className="font-bold text-xl">
-                                        Paid the tuition fee for Semester 3
+                                        Paid the tuition fee for Semester 2
                                     </div>
                                     <div className="pt-2 text-lg">
-                                        23/12/2023
+                                        23/01/2022
                                     </div>
                                 </div>
                             </div>
@@ -167,10 +173,10 @@ const Tuition = () => {
                                 />
                                 <div className="text-right flex ml-auto flex-col">
                                     <div className="font-bold text-xl">
-                                        Paid the tuition fee for Semester 3
+                                        Paid the tuition fee for Semester 1
                                     </div>
                                     <div className="pt-2 text-lg">
-                                        23/12/2023
+                                        23/12/2021
                                     </div>
                                 </div>
                             </div>

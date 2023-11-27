@@ -113,76 +113,76 @@ const Courses = () => {
                                     <div className="w-full bg-hijauMuda p-4 rounded-2xl mt-4 flex">
                                         <div className="w-4/12 h-full flex-col pb-4">
                                             <div className="text-hijau font-bold pb-auto text-xl">
-                                                Interaksi Manusia dan Komputer
+                                                Kecerdasan Buatan
                                             </div>
                                             <div className="text-hijau w-6/12 rounded-full bg-kuning text-center font-semibold py-0.5 mt-4">
-                                                Monday
+                                                Tuesday
                                             </div>
                                         </div>
                                         <div className="flex ml-auto text-lg text-center font-semibold gap-2">
                                             <div className="p-10 bg-kuning w-28 h-28 text-hijau rounded-xl">
-                                                F2.4
+                                                F3.1
                                             </div>
                                             <div className="bg-ungu p-6 w-28 h-28 text-hijauMuda rounded-xl">
-                                                3 <br />
+                                                4 <br />
                                                 Credits
                                             </div>
                                             <div className="bg-hijau w-28 h-28 text-hijauMuda rounded-xl p-6">
-                                                07:00 <br />
-                                                08:00
+                                                13:00 <br />
+                                                05:00
                                             </div>
                                         </div>
                                     </div>
                                     <div className="w-full bg-hijauMuda p-4 rounded-2xl mt-4 flex">
                                         <div className="w-4/12 h-full flex-col pb-4">
                                             <div className="text-hijau font-bold pb-auto text-xl">
-                                                Interaksi Manusia dan Komputer
+                                                Desain Analisis Algoritma
                                             </div>
                                             <div className="text-hijau w-6/12 rounded-full bg-kuning text-center font-semibold py-0.5 mt-4">
-                                                Monday
+                                                Thursday
                                             </div>
                                         </div>
                                         <div className="flex ml-auto text-lg text-center font-semibold gap-2">
                                             <div className="p-10 bg-kuning w-28 h-28 text-hijau rounded-xl">
-                                                F2.4
+                                                F4.6
                                             </div>
                                             <div className="bg-ungu p-6 w-28 h-28 text-hijauMuda rounded-xl">
                                                 3 <br />
                                                 Credits
                                             </div>
                                             <div className="bg-hijau w-28 h-28 text-hijauMuda rounded-xl p-6">
-                                                07:00 <br />
-                                                08:00
+                                                15:00 <br />
+                                                17:00
                                             </div>
                                         </div>
                                     </div>
                                     <div className="w-full bg-hijauMuda p-4 rounded-2xl mt-4 flex">
                                         <div className="w-4/12 h-full flex-col pb-4">
                                             <div className="text-hijau font-bold pb-auto text-xl">
-                                                Interaksi Manusia dan Komputer
+                                                Jaringan Komputer
                                             </div>
                                             <div className="text-hijau w-6/12 rounded-full bg-kuning text-center font-semibold py-0.5 mt-4">
-                                                Monday
+                                                Friday
                                             </div>
                                         </div>
                                         <div className="flex ml-auto text-lg text-center font-semibold gap-2">
                                             <div className="p-10 bg-kuning w-28 h-28 text-hijau rounded-xl">
-                                                F2.4
+                                                F3.4
                                             </div>
                                             <div className="bg-ungu p-6 w-28 h-28 text-hijauMuda rounded-xl">
-                                                3 <br />
+                                                4 <br />
                                                 Credits
                                             </div>
                                             <div className="bg-hijau w-28 h-28 text-hijauMuda rounded-xl p-6">
-                                                07:00 <br />
-                                                08:00
+                                                09:00 <br />
+                                                11:00
                                             </div>
                                         </div>
                                     </div>
                                     <div className="w-full bg-hijauMuda p-4 rounded-2xl mt-4 flex">
                                         <div className="w-4/12 h-full flex-col pb-4">
                                             <div className="text-hijau font-bold pb-auto text-xl">
-                                                Interaksi Manusia dan Komputer
+                                                Basis Data
                                             </div>
                                             <div className="text-hijau w-6/12 rounded-full bg-kuning text-center font-semibold py-0.5 mt-4">
                                                 Monday
@@ -190,15 +190,15 @@ const Courses = () => {
                                         </div>
                                         <div className="flex ml-auto text-lg text-center font-semibold gap-2">
                                             <div className="p-10 bg-kuning w-28 h-28 text-hijau rounded-xl">
-                                                F2.4
+                                                F4.4
                                             </div>
                                             <div className="bg-ungu p-6 w-28 h-28 text-hijauMuda rounded-xl">
-                                                3 <br />
+                                                4 <br />
                                                 Credits
                                             </div>
                                             <div className="bg-hijau w-28 h-28 text-hijauMuda rounded-xl p-6">
-                                                07:00 <br />
-                                                08:00
+                                                08:00 <br />
+                                                10:00
                                             </div>
                                         </div>
                                     </div>
@@ -235,7 +235,7 @@ const Courses = () => {
                                     <div className="w-full bg-hijauMuda p-4 rounded-2xl mt-4 flex items-center mb-4">
                                         <div className="w-4/12 h-full flex-col pb-4">
                                             <div className="text-hijau font-bold pb-auto text-xl ">
-                                                Interaksi Manusia dan Komputer
+                                                Kecerdasan Buatan
                                             </div>
                                         </div>
                                         <div className="flex ml-auto text-lg text-center font-semibold gap-2">
@@ -250,37 +250,37 @@ const Courses = () => {
                                     <div className="w-full bg-hijauMuda p-4 rounded-2xl mt-4 flex items-center">
                                         <div className="w-4/12 h-full flex-col pb-4">
                                             <div className="text-hijau font-bold pb-auto text-xl ">
-                                                Interaksi Manusia dan Komputer
+                                                Desain Analisis Algoritma
                                             </div>
                                         </div>
                                         <div className="flex ml-auto text-lg text-center font-semibold gap-2">
                                             <div className="bg-ungu p-6 w-28 h-28 text-hijauMuda rounded-xl">
-                                                Present: 10
+                                                Present: 8
                                             </div>
                                             <div className="bg-hijau w-28 h-28 text-hijauMuda rounded-xl p-6">
-                                                Absent: 0
+                                                Absent: 2
                                             </div>
                                         </div>
                                     </div>
                                     <div className="w-full bg-hijauMuda p-4 rounded-2xl mt-4 flex items-center">
                                         <div className="w-4/12 h-full flex-col pb-4">
                                             <div className="text-hijau font-bold pb-auto text-xl ">
-                                                Interaksi Manusia dan Komputer
+                                                Basis Data
                                             </div>
                                         </div>
                                         <div className="flex ml-auto text-lg text-center font-semibold gap-2">
                                             <div className="bg-ungu p-6 w-28 h-28 text-hijauMuda rounded-xl">
-                                                Present: 10
+                                                Present: 9
                                             </div>
                                             <div className="bg-hijau w-28 h-28 text-hijauMuda rounded-xl p-6">
-                                                Absent: 0
+                                                Absent: 1
                                             </div>
                                         </div>
                                     </div>
                                     <div className="w-full bg-hijauMuda p-4 rounded-2xl mt-4 flex items-center">
                                         <div className="w-4/12 h-full flex-col pb-4">
                                             <div className="text-hijau font-bold pb-auto text-xl ">
-                                                Interaksi Manusia dan Komputer
+                                                Jaringan Komputer
                                             </div>
                                         </div>
                                         <div className="flex ml-auto text-lg text-center font-semibold gap-2">
